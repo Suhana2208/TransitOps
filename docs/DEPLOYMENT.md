@@ -21,7 +21,7 @@ Chrome block. Vercel's proxy rewrites do not carry WebSockets, so SignalR would 
 |---|---|
 | Live site | https://transitops-s0vg.onrender.com |
 | Hosting | Render, free web service, region Singapore, Docker, branch `main` |
-| Created from | **Public Git Repository** (`https://github.com/Suhana2208/TransitOps`), so no GitHub app approval was needed. Render does not redeploy on push: after merging to `main`, click **Manual Deploy → Deploy latest commit**. |
+| Source | GitHub repository `Suhana2208/TransitOps`, connected through the Render GitHub app. Every push to `main` deploys automatically; **Manual Deploy → Deploy latest commit** redeploys without a push. |
 | Database | The existing Supabase project (session pooler, Mumbai), shared with the development laptops |
 | Health check | `/api/health` |
 
